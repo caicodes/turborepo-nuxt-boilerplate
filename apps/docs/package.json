@@ -1,0 +1,19 @@
+{
+  "name": "docs",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vitepress dev pages",
+    "build": "vitepress build pages",
+    "serve": "vitepress serve pages"
+  },
+  "devDependencies": {
+    "@iconify-json/mdi": "^1.1.36",
+    "@myturborepo/ui": "workspace:*",
+    "@myturborepo/vuetify-config": "workspace:*",
+    "unocss": "^0.47.5",
+    "vite-plugin-vuetify": "^1.0.0",
+    "vitepress": "1.0.0-alpha.30",
+    "vue": "^3.2.45"
+  }
+}
